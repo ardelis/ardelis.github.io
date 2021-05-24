@@ -1,0 +1,308 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    font-family: sans-serif;
+}
+
+#nav-bar
+{
+    z-index: 10;
+}
+
+#logo
+{
+    width: 50%;
+    height: 50%;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+/*------------------banner section--------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #000000, #4754f6);
+    color: #fff;
+    padding-top: 5%;
+}
+
+#banner h1
+{
+    margin-top: 100px;
+}
+
+#sub-promo 
+{
+    font-size: 20px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid white; /* The typwriter cursor */
+    white-space: nowrap;  /* Keeps the content on a single line */
+    margin: 20px auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .00em; /* Adjust as needed */
+    animation: 
+    typing 6.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
+
+.banner-image {
+    padding: 20px 10px;
+}
+
+#intro {
+    padding: 10px 20px;
+}
+
+.bottom-img
+{
+    width: 100%;
+    height: 200px;
+}
+
+/*------------------------Scroll section ----------------------------*/
+#scroll-section {
+    padding-bottom: 70px;
+}
+
+#description {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+#sub-description {
+    font-weight: 200;
+    font-size: 20px;
+    padding: 0 97px
+}
+
+/*----------------------------Services section------------------------- */
+#services {
+    padding: 80px 0px;
+    background-color: #4754f6;
+    color: #fff;
+}
+
+#services .title1 {
+    margin-bottom: 60px;
+}
+
+.service-content {
+    padding: 20px;
+}
+
+.service-content h4 {
+    padding: 5px;
+    margin-top: 25px;
+    /*text-transform: uppercase;*/
+}
+
+.title1::before {
+    content: '';
+    background: #fff;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title1::after {
+    content: '';
+    background: #fff;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+/*----------------------------About us section-------------------------*/
+#about-us {
+    background-color: #f8f9fa;
+    padding: 80px 0px;
+}
+
+#about-us .title2 {
+    margin-bottom: 60px;
+}
+
+.title2::before {
+    content: '';
+    background: #000;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title2::after {
+    content: '';
+    background: #000;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.about-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+    font-size: 19px;
+}
+
+#about-us ul {
+    margin-left: 20px;
+}
+
+/*------------------------------Portfolio-------------------------------*/
+#portfolio {
+    padding: 80px 0;
+    text-align: center;
+    background-color: #4754f6;
+    color: #fff;
+}
+
+.product1 img {
+    width: 560px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+
+.product1 img:hover {
+    opacity: 0.8;
+}
+
+.product1 p {
+    font-size: 20px;
+}
+
+/*---------------------------Social Media Section-----------------------*/
+#social-media {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#social-media h1 {
+    margin-bottom: 30px;
+}
+
+.social-icons img {
+    width: 80px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-10px);
+}
+
+/*------------------------------Footer section-------------------------*/
+
+#footer {
+    background-image: linear-gradient(to right, #0dffea, #4754f6);
+    text-align: center;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.footer-img {
+    width: 100%;
+    height: 200px;
+}
+
+#footer-logo {
+    /*width: 25%;*/
+    margin-bottom: 20px;
+}
+
+.footer-description {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+#contact {
+    padding-top: 60px;
+}
+
+#email-link {
+    color: #fff;
+    display: block;
+    font-size: 17px;
+}
+
+#phone-link {
+    color: #fff;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 17px;
+
+}
+
+#contact h4{
+    margin-bottom: 20px;
+}
+
+#copyright {
+    margin-top: 90px;
+    font-size: 19px;
+}
+
+.title3::before {
+    content: '';
+    background: #fff;
+    height: 5px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+}
+
+.title3::after {
+    content: '';
+    background: #fff;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}
