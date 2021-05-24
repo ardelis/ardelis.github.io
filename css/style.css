@@ -284,6 +284,10 @@ body
     font-size: 19px;
 }
 
+#phone-icon {
+	display: inline;
+}
+
 .title3::before {
     content: '';
     background: #fff;
