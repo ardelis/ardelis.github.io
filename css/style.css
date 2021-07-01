@@ -97,7 +97,7 @@ body
 #sub-description {
     font-weight: 200;
     font-size: 20px;
-    padding: 0 97px
+    padding: 0 97px;
 }
 
 /*----------------------------Services section------------------------- */
@@ -309,4 +309,21 @@ body
     margin-bottom: 40px;
     display: block;
     transform: translateY(8px);
+}
+
+@media only screen and (max-width: 488px) {
+    .title2::before {
+        content: '';
+        background: #000;
+        height: 5px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        transform: translateY(110px);
+    }
+
+    #sub-description {
+        padding: 0 20px;
+    }
 }
